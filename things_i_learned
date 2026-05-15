@@ -1,0 +1,38 @@
+# Array Right Rotation in C
+
+This program performs right rotation of an array by k positions using C language.
+
+While solving this problem, I explored different ways of rotating arrays and understood how array shifting works internally.
+
+## Concepts Practiced
+- Arrays
+- Traversal
+- Indexing
+- Rotation Logic
+- Modulo Operator
+- Auxiliary Space
+
+## Problems I Faced
+- Initially, I did not handle the case when k > n.
+- I realized that directly using large k values can create invalid indexes.
+- I also understood why full rotations return the same array.
+
+## Important Realizations
+- k % n helps reduce unnecessary rotations.
+- Arrays behave cyclically during rotations.
+- Manual shifting logic improved my understanding more than directly using optimized code.
+
+## What I Learned
+- Array manipulation
+- Edge case handling
+- Debugging logic errors
+- Importance of dry runs before coding
+- Difference between working code and optimized code
+
+## Future Improvements
+- In-place rotation
+- Left rotation
+- Reduced auxiliary space
+
+## Language
+C
