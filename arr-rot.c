@@ -3,6 +3,7 @@ void rotate(int arr[],int arr1[],int k,int n)
 {
 int m=0;
 int temp=n-1;
+k=k%n;
 for(int i=k-1;i>-1;i--)
 {
    arr1[i]=arr[temp--];
